@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5699096F1E5F3F9000F672E7 /* DLSlideViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5699096E1E5F3F2100F672E7 /* DLSlideViewHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		569D5F041E5E5B6A00855BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569D5F031E5E5B6A00855BCB /* AppDelegate.swift */; };
 		569D5F061E5E5B6A00855BCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569D5F051E5E5B6A00855BCB /* ViewController.swift */; };
 		569D5F091E5E5B6A00855BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569D5F071E5E5B6A00855BCB /* Main.storyboard */; };
@@ -66,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5699096E1E5F3F2100F672E7 /* DLSlideViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLSlideViewHeader.h; sourceTree = "<group>"; };
 		569D5F001E5E5B6A00855BCB /* DLSlideView_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLSlideView_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		569D5F031E5E5B6A00855BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		569D5F051E5E5B6A00855BCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				569D5F271E5E5BB400855BCB /* DLUtility.h */,
 				569D5F281E5E5BB400855BCB /* DLUtility.m */,
 				569D5F161E5E5BB400855BCB /* DLSlideView_swift-Bridging-Header.h */,
+				5699096E1E5F3F2100F672E7 /* DLSlideViewHeader.h */,
 			);
 			path = DLSlideView;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				569D5F481E5E5CB300855BCB /* DLSlideTabbarProtocol.h in Headers */,
 				569D5F491E5E5CB300855BCB /* DLTabedSlideView.h in Headers */,
 				569D5F4A1E5E5CB300855BCB /* DLUtility.h in Headers */,
+				5699096F1E5F3F9000F672E7 /* DLSlideViewHeader.h in Headers */,
 				569D5F4B1E5E5CB300855BCB /* DLSlideView_swift-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,6 +568,7 @@
 				569D5F141E5E5B6A00855BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		569D5F3E1E5E5C9400855BCB /* Build configuration list for PBXNativeTarget "DLSlideViewFramework" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +577,7 @@
 				569D5F401E5E5C9400855BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
