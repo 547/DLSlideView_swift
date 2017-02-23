@@ -1,0 +1,279 @@
+BCSymbolMap Version: 2.0
+-[DLLRUCache initWithCount:]
+-[DLLRUCache setObject:forKey:]
+-[DLLRUCache objectForKey:]
+-[DLLRUCache .cxx_destruct]
+_OBJC_IVAR_$_DLLRUCache.capacity_
+_OBJC_IVAR_$_DLLRUCache.dic_
+_OBJC_IVAR_$_DLLRUCache.lruKeyList_
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_DLCacheProtocol
+l_OBJC_LABEL_PROTOCOL_$_DLCacheProtocol
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLCache/DLLRUCache.m
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift
+-[DLCustomSlideView commonInit]
+-[DLCustomSlideView initWithCoder:]
+-[DLCustomSlideView initWithFrame:]
+-[DLCustomSlideView setup]
+-[DLCustomSlideView layoutSubviews]
+-[DLCustomSlideView layoutBarAndSlide]
+-[DLCustomSlideView setBaseViewController:]
+-[DLCustomSlideView setSelectedIndex:]
+-[DLCustomSlideView DLSlideTabbar:selectAt:]
+-[DLCustomSlideView numberOfControllersInDLSlideView:]
+-[DLCustomSlideView DLSlideView:controllerAt:]
+-[DLCustomSlideView DLSlideView:switchingFrom:to:percent:]
+-[DLCustomSlideView DLSlideView:didSwitchTo:]
+-[DLCustomSlideView DLSlideView:switchCanceled:]
+-[DLCustomSlideView baseViewController]
+-[DLCustomSlideView selectedIndex]
+-[DLCustomSlideView tabbar]
+-[DLCustomSlideView setTabbar:]
+-[DLCustomSlideView tabbarBottomSpacing]
+-[DLCustomSlideView setTabbarBottomSpacing:]
+-[DLCustomSlideView cache]
+-[DLCustomSlideView setCache:]
+-[DLCustomSlideView delegate]
+-[DLCustomSlideView setDelegate:]
+-[DLCustomSlideView .cxx_destruct]
+_OBJC_IVAR_$_DLCustomSlideView.slideView_
+_OBJC_IVAR_$_DLCustomSlideView._baseViewController
+_OBJC_IVAR_$_DLCustomSlideView._selectedIndex
+_OBJC_IVAR_$_DLCustomSlideView._tabbar
+_OBJC_IVAR_$_DLCustomSlideView._tabbarBottomSpacing
+_OBJC_IVAR_$_DLCustomSlideView._cache
+_OBJC_IVAR_$_DLCustomSlideView._delegate
+l_OBJC_PROTOCOL_$_DLSlideTabbarDelegate
+l_OBJC_LABEL_PROTOCOL_$_DLSlideTabbarDelegate
+l_OBJC_PROTOCOL_$_DLSlideViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_DLSlideViewDelegate
+l_OBJC_PROTOCOL_$_DLSlideViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_DLSlideViewDataSource
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLCustomSlideView.m
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLCustomSlideView.h
+CGRectMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+-[DLSlideView commonInit]
+-[DLSlideView initWithCoder:]
+-[DLSlideView initWithFrame:]
+-[DLSlideView selectedIndex]
+-[DLSlideView setSelectedIndex:]
+-[DLSlideView removeOld]
+-[DLSlideView removeWill]
+-[DLSlideView showAt:]
+-[DLSlideView removeCtrl:]
+-[DLSlideView switchTo:]
+___24-[DLSlideView switchTo:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___24-[DLSlideView switchTo:]_block_invoke.57
+___copy_helper_block_.58
+___destroy_helper_block_.59
+-[DLSlideView repositionForOffsetX:]
+-[DLSlideView backToOldWithOffset:]
+___35-[DLSlideView backToOldWithOffset:]_block_invoke
+___copy_helper_block_.75
+___destroy_helper_block_.76
+___35-[DLSlideView backToOldWithOffset:]_block_invoke.78
+___copy_helper_block_.83
+___destroy_helper_block_.84
+-[DLSlideView panHandler:]
+___26-[DLSlideView panHandler:]_block_invoke
+___copy_helper_block_.92
+___destroy_helper_block_.93
+___26-[DLSlideView panHandler:]_block_invoke.95
+___copy_helper_block_.96
+___destroy_helper_block_.97
+-[DLSlideView baseViewController]
+-[DLSlideView setBaseViewController:]
+-[DLSlideView delegate]
+-[DLSlideView setDelegate:]
+-[DLSlideView dataSource]
+-[DLSlideView setDataSource:]
+-[DLSlideView .cxx_destruct]
+_OBJC_IVAR_$_DLSlideView.oldIndex_
+_OBJC_IVAR_$_DLSlideView.isSwitching_
+_OBJC_IVAR_$_DLSlideView.pan_
+_OBJC_IVAR_$_DLSlideView.oldCtrl_
+_OBJC_IVAR_$_DLSlideView.willCtrl_
+_OBJC_IVAR_$_DLSlideView.panToIndex_
+___block_descriptor_tmp
+___block_descriptor_tmp.61
+___block_descriptor_tmp.77
+___block_descriptor_tmp.85
+_OBJC_IVAR_$_DLSlideView.panStartPoint_
+___block_descriptor_tmp.94
+___block_descriptor_tmp.98
+_OBJC_IVAR_$_DLSlideView._baseViewController
+_OBJC_IVAR_$_DLSlideView._delegate
+_OBJC_IVAR_$_DLSlideView._dataSource
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLSlideView.m
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLSlideView.h
+__destroy_helper_block_
+__copy_helper_block_
+__26-[DLSlideView panHandler:]_block_invoke.95
+__26-[DLSlideView panHandler:]_block_invoke
+__35-[DLSlideView backToOldWithOffset:]_block_invoke.78
+__35-[DLSlideView backToOldWithOffset:]_block_invoke
+__24-[DLSlideView switchTo:]_block_invoke.57
+__24-[DLSlideView switchTo:]_block_invoke
+-[DLFixedTabbarViewTabItem title]
+-[DLFixedTabbarViewTabItem setTitle:]
+-[DLFixedTabbarViewTabItem image]
+-[DLFixedTabbarViewTabItem setImage:]
+-[DLFixedTabbarViewTabItem selectedImage]
+-[DLFixedTabbarViewTabItem setSelectedImage:]
+-[DLFixedTabbarViewTabItem titleColor]
+-[DLFixedTabbarViewTabItem setTitleColor:]
+-[DLFixedTabbarViewTabItem selectedTitleColor]
+-[DLFixedTabbarViewTabItem setSelectedTitleColor:]
+-[DLFixedTabbarViewTabItem .cxx_destruct]
+-[DLFixedTabbarView commonInit]
+-[DLFixedTabbarView initWithCoder:]
+-[DLFixedTabbarView initWithFrame:]
+-[DLFixedTabbarView setBackgroundImage:]
+-[DLFixedTabbarView setTrackColor:]
+-[DLFixedTabbarView setTabbarItems:]
+-[DLFixedTabbarView layoutSubviews]
+-[DLFixedTabbarView layoutTabbar]
+-[DLFixedTabbarView tabbarCount]
+-[DLFixedTabbarView switchingFrom:to:percent:]
+-[DLFixedTabbarView setSelectedIndex:]
+-[DLFixedTabbarView tapAction:]
+-[DLFixedTabbarView backgroundImage]
+-[DLFixedTabbarView trackColor]
+-[DLFixedTabbarView tabbarItems]
+-[DLFixedTabbarView selectedIndex]
+-[DLFixedTabbarView delegate]
+-[DLFixedTabbarView setDelegate:]
+-[DLFixedTabbarView .cxx_destruct]
+_OBJC_IVAR_$_DLFixedTabbarViewTabItem._title
+_OBJC_IVAR_$_DLFixedTabbarViewTabItem._image
+_OBJC_IVAR_$_DLFixedTabbarViewTabItem._selectedImage
+_OBJC_IVAR_$_DLFixedTabbarViewTabItem._titleColor
+_OBJC_IVAR_$_DLFixedTabbarViewTabItem._selectedTitleColor
+_OBJC_IVAR_$_DLFixedTabbarView._selectedIndex
+_OBJC_IVAR_$_DLFixedTabbarView.backgroudView_
+_OBJC_IVAR_$_DLFixedTabbarView.scrollView_
+_OBJC_IVAR_$_DLFixedTabbarView.trackView_
+_OBJC_IVAR_$_DLFixedTabbarView._tabbarItems
+_OBJC_IVAR_$_DLFixedTabbarView._backgroundImage
+_OBJC_IVAR_$_DLFixedTabbarView._trackColor
+_OBJC_IVAR_$_DLFixedTabbarView._delegate
+l_OBJC_PROTOCOL_$_DLSlideTabbarProtocol
+l_OBJC_LABEL_PROTOCOL_$_DLSlideTabbarProtocol
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLTabbarView/DLFixedTabbarView.m
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLTabbarView/DLFixedTabbarView.h
++[DLScrollTabbarItem itemWithTitle:width:]
+-[DLScrollTabbarItem title]
+-[DLScrollTabbarItem setTitle:]
+-[DLScrollTabbarItem width]
+-[DLScrollTabbarItem setWidth:]
+-[DLScrollTabbarItem .cxx_destruct]
+-[DLScrollTabbarView commonInit]
+-[DLScrollTabbarView initWithCoder:]
+-[DLScrollTabbarView initWithFrame:]
+-[DLScrollTabbarView setBackgroundView:]
+-[DLScrollTabbarView setTabItemNormalColor:]
+-[DLScrollTabbarView setTabItemSelectedColor:]
+-[DLScrollTabbarView setTrackColor:]
+-[DLScrollTabbarView setTabbarItems:]
+-[DLScrollTabbarView layoutSubviews]
+-[DLScrollTabbarView layoutTabbar]
+-[DLScrollTabbarView tabbarCount]
+-[DLScrollTabbarView switchingFrom:to:percent:]
+-[DLScrollTabbarView setSelectedIndex:]
+-[DLScrollTabbarView tapAction:]
+-[DLScrollTabbarView backgroundView]
+-[DLScrollTabbarView tabItemNormalColor]
+-[DLScrollTabbarView tabItemSelectedColor]
+-[DLScrollTabbarView tabItemNormalFontSize]
+-[DLScrollTabbarView setTabItemNormalFontSize:]
+-[DLScrollTabbarView trackColor]
+-[DLScrollTabbarView tabbarItems]
+-[DLScrollTabbarView selectedIndex]
+-[DLScrollTabbarView delegate]
+-[DLScrollTabbarView setDelegate:]
+-[DLScrollTabbarView .cxx_destruct]
+_OBJC_IVAR_$_DLScrollTabbarItem._title
+_OBJC_IVAR_$_DLScrollTabbarItem._width
+_OBJC_IVAR_$_DLScrollTabbarView._selectedIndex
+_OBJC_IVAR_$_DLScrollTabbarView.scrollView_
+_OBJC_IVAR_$_DLScrollTabbarView.trackView_
+_OBJC_IVAR_$_DLScrollTabbarView._backgroundView
+_OBJC_IVAR_$_DLScrollTabbarView._tabItemNormalColor
+_OBJC_IVAR_$_DLScrollTabbarView._tabItemSelectedColor
+_OBJC_IVAR_$_DLScrollTabbarView._trackColor
+_OBJC_IVAR_$_DLScrollTabbarView._tabbarItems
+_OBJC_IVAR_$_DLScrollTabbarView._tabItemNormalFontSize
+_OBJC_IVAR_$_DLScrollTabbarView._delegate
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLTabbarView/DLScrollTabbarView.m
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLTabbarView/DLScrollTabbarView.h
+CGSizeMake
++[DLTabedbarItem itemWithTitle:image:selectedImage:]
+-[DLTabedbarItem title]
+-[DLTabedbarItem setTitle:]
+-[DLTabedbarItem image]
+-[DLTabedbarItem setImage:]
+-[DLTabedbarItem selectedImage]
+-[DLTabedbarItem setSelectedImage:]
+-[DLTabedbarItem .cxx_destruct]
+-[DLTabedSlideView commonInit]
+-[DLTabedSlideView initWithCoder:]
+-[DLTabedSlideView initWithFrame:]
+-[DLTabedSlideView layoutSubviews]
+-[DLTabedSlideView layoutBarAndSlide]
+-[DLTabedSlideView setBaseViewController:]
+-[DLTabedSlideView buildTabbar]
+-[DLTabedSlideView setSelectedIndex:]
+-[DLTabedSlideView DLSlideTabbar:selectAt:]
+-[DLTabedSlideView numberOfControllersInDLSlideView:]
+-[DLTabedSlideView DLSlideView:controllerAt:]
+-[DLTabedSlideView DLSlideView:switchingFrom:to:percent:]
+-[DLTabedSlideView DLSlideView:didSwitchTo:]
+-[DLTabedSlideView DLSlideView:switchCanceled:]
+-[DLTabedSlideView baseViewController]
+-[DLTabedSlideView selectedIndex]
+-[DLTabedSlideView tabItemNormalColor]
+-[DLTabedSlideView setTabItemNormalColor:]
+-[DLTabedSlideView tabItemSelectedColor]
+-[DLTabedSlideView setTabItemSelectedColor:]
+-[DLTabedSlideView tabbarBackgroundImage]
+-[DLTabedSlideView setTabbarBackgroundImage:]
+-[DLTabedSlideView tabbarTrackColor]
+-[DLTabedSlideView setTabbarTrackColor:]
+-[DLTabedSlideView tabbarItems]
+-[DLTabedSlideView setTabbarItems:]
+-[DLTabedSlideView tabbarHeight]
+-[DLTabedSlideView setTabbarHeight:]
+-[DLTabedSlideView tabbarBottomSpacing]
+-[DLTabedSlideView setTabbarBottomSpacing:]
+-[DLTabedSlideView cacheCount]
+-[DLTabedSlideView setCacheCount:]
+-[DLTabedSlideView delegate]
+-[DLTabedSlideView setDelegate:]
+-[DLTabedSlideView .cxx_destruct]
+_OBJC_IVAR_$_DLTabedbarItem._title
+_OBJC_IVAR_$_DLTabedbarItem._image
+_OBJC_IVAR_$_DLTabedbarItem._selectedImage
+_OBJC_IVAR_$_DLTabedSlideView.tabbar_
+_OBJC_IVAR_$_DLTabedSlideView.slideView_
+_OBJC_IVAR_$_DLTabedSlideView.ctrlCache_
+_OBJC_IVAR_$_DLTabedSlideView._selectedIndex
+_OBJC_IVAR_$_DLTabedSlideView._baseViewController
+_OBJC_IVAR_$_DLTabedSlideView._tabItemNormalColor
+_OBJC_IVAR_$_DLTabedSlideView._tabItemSelectedColor
+_OBJC_IVAR_$_DLTabedSlideView._tabbarBackgroundImage
+_OBJC_IVAR_$_DLTabedSlideView._tabbarTrackColor
+_OBJC_IVAR_$_DLTabedSlideView._tabbarItems
+_OBJC_IVAR_$_DLTabedSlideView._tabbarHeight
+_OBJC_IVAR_$_DLTabedSlideView._tabbarBottomSpacing
+_OBJC_IVAR_$_DLTabedSlideView._cacheCount
+_OBJC_IVAR_$_DLTabedSlideView._delegate
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLTabedSlideView.m
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLTabedSlideView.h
++[DLUtility getColorOfPercent:between:and:]
+/Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLUtility.m
+/Users/sevenwang/Library/Developer/Xcode/DerivedData/DLSlideView_swift-bcivulabzvujkffsxrhjdgamtbxo/Build/Intermediates/DLSlideView_swift.build/Release-iphoneos/DLSlideViewFramework.build/DerivedSources/DLSlideView_vers.c
