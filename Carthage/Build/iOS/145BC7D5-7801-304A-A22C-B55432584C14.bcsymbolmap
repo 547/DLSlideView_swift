@@ -273,4 +273,4 @@ _OBJC_IVAR_$_DLTabedSlideView._delegate
 /Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLTabedSlideView.h
 +[DLUtility getColorOfPercent:between:and:]
 /Users/sevenwang/Desktop/SwiftTest/DLSlideView_swift/DLSlideView_swift/DLSlideView/DLUtility.m
-/Users/sevenwang/Library/Developer/Xcode/DerivedData/DLSlideView_swift-bcivulabzvujkffsxrhjdgamtbxo/Build/Intermediates/DLSlideView_swift.build/Release-iphoneos/DLSlideViewFramework.build/DerivedSources/DLSlideView_vers.c
+/Users/sevenwang/Library/Developer/Xcode/DerivedData/DLSlideView_swift-bcivulabzvujkffsxrhjdgamtbxo/Build/Intermediates/DLSlideView_swift.build/Release-iphoneos/DLSlideViewFramework.build/DerivedSources/DLSlideViewFramework_vers.c

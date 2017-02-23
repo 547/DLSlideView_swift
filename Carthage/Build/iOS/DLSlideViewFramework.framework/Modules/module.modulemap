@@ -1,0 +1,6 @@
+framework module DLSlideViewFramework {
+  umbrella header "DLSlideViewFramework.h"
+
+  export *
+  module * { export * }
+}

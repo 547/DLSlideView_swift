@@ -10,13 +10,12 @@
 #define DLSlideViewHeader_h
 #import "DLSlideView.h"
 #import "DLCustomSlideView.h"
-#import "DLTabedSlideView.h"
-#import "DLUtility.h"
-#import "DLFixedTabbarView.h"
-#import "DLScrollTabbarView.h"
 #import "DLSlideTabbarProtocol.h"
+#import "DLTabedSlideView.h"
 #import "DLCacheProtocol.h"
+#import "DLTabedSlideView.h"
+#import "DLFixedTabbarView.h"
 #import "DLLRUCache.h"
-
-
+#import "DLUtility.h"
+#import "DLScrollTabbarView.h"
 #endif /* DLSlideViewHeader_h */
