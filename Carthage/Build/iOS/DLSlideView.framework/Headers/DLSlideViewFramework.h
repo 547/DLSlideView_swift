@@ -16,4 +16,13 @@ FOUNDATION_EXPORT const unsigned char DLSlideViewFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DLSlideViewFramework/PublicHeader.h>
 
+#import "DLSlideView.h"
+#import "DLCustomSlideView.h"
+#import "DLTabedSlideView.h"
+#import "DLUtility.h"
+#import "DLFixedTabbarView.h"
+#import "DLScrollTabbarView.h"
+#import "DLSlideTabbarProtocol.h"
+#import "DLCacheProtocol.h"
+#import "DLLRUCache.h"
 
