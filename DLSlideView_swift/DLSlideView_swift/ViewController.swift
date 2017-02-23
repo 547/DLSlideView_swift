@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,DLTabedSlideViewDelegate {
 
+    let test: DLTabedSlideView! = nil
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -19,6 +20,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func numberOfTabs(in sender: DLTabedSlideView!) -> Int {
+        return 2
+    }
+    func dlTabedSlideView(_ sender: DLTabedSlideView!, controllerAt index: Int) -> UIViewController! {
+        return UIViewController()
+    }
 }
 
